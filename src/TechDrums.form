@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TechDrums">
+  <grid id="27dc6" binding="guipanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1474" height="685"/>
+    </constraints>
+    <properties>
+      <focusable value="true"/>
+    </properties>
+    <border type="bevel-lowered"/>
+    <children>
+      <vspacer id="7c33c">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="50"/>
+        </constraints>
+      </vspacer>
+      <component id="822cf" class="javax.swing.JButton" binding="btnSample4">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Sample 4"/>
+        </properties>
+      </component>
+      <component id="8b93f" class="javax.swing.JButton" binding="btnSample5">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Sample 5"/>
+        </properties>
+      </component>
+      <component id="3b001" class="javax.swing.JButton" binding="btnSample1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Sample 1"/>
+        </properties>
+      </component>
+      <component id="c3aff" class="javax.swing.JButton" binding="btnSample2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Sample 2"/>
+        </properties>
+      </component>
+      <component id="26a18" class="javax.swing.JButton" binding="btnSample3">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Sample 3"/>
+        </properties>
+      </component>
+      <component id="1258c" class="javax.swing.JRadioButton" binding="rad1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="62112" class="javax.swing.JRadioButton" binding="rad2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cbb4b" class="javax.swing.JRadioButton" binding="rad3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9f5b4" class="javax.swing.JRadioButton" binding="rad4">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6a509" class="javax.swing.JRadioButton" binding="rad5">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1ba52" class="javax.swing.JSlider" binding="volumeSlider">
+        <constraints>
+          <grid row="4" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="500"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="50" right="10" weightx="0.0" weighty="0.0" ipady="200"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <extent value="0"/>
+          <focusable value="false"/>
+          <inverted value="false"/>
+          <majorTickSpacing value="20"/>
+          <maximumSize width="75" height="1000"/>
+          <minimumSize width="25" height="200"/>
+          <minorTickSpacing value="10"/>
+          <orientation value="1"/>
+          <paintLabels value="true"/>
+          <paintTicks value="true"/>
+          <toolTipText value="Volume"/>
+          <value value="100"/>
+        </properties>
+      </component>
+      <tabbedpane id="47ee6" binding="sectionTabs">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="13" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <name value="section1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9cdc1" binding="defaultTab" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Section 1"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </tabbedpane>
+      <hspacer id="aa4f6">
+        <constraints>
+          <grid row="3" column="14" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="25"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1f90">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="450"/>
+        </constraints>
+      </hspacer>
+      <component id="75e80" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="25" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0" ipadx="50" ipady="20"/>
+        </constraints>
+        <properties>
+          <text value="       Volume"/>
+        </properties>
+      </component>
+      <component id="57d8d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="100"/>
+        </constraints>
+        <properties>
+          <text value="Tempo (bpm):"/>
+        </properties>
+      </component>
+      <component id="69747" class="javax.swing.JComboBox" binding="tempoBox">
+        <constraints>
+          <grid row="5" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+        </properties>
+      </component>
+      <component id="7a6f8" class="javax.swing.JButton" binding="btnColor">
+        <constraints>
+          <grid row="0" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Change Color"/>
+        </properties>
+      </component>
+      <component id="386e1" class="javax.swing.JButton" binding="btnPlay">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Play"/>
+        </properties>
+      </component>
+      <component id="b9577" class="javax.swing.JButton" binding="btnStop">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Stop"/>
+        </properties>
+      </component>
+      <component id="f6af4" class="javax.swing.JButton" binding="btnAddSection">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Add Section"/>
+        </properties>
+      </component>
+      <component id="c0770" class="javax.swing.JButton" binding="btnrRemoveSection">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Remove Section"/>
+        </properties>
+      </component>
+      <hspacer id="328c0">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="50"/>
+        </constraints>
+      </hspacer>
+      <component id="feb24" class="javax.swing.JButton" binding="btnAddMeasure">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Add Measure"/>
+        </properties>
+      </component>
+      <component id="669cb" class="javax.swing.JButton" binding="btnRemoveMeasure">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Remove Measure"/>
+        </properties>
+      </component>
+      <hspacer id="c89bc">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="25"/>
+        </constraints>
+      </hspacer>
+      <component id="600b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="150"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <text value="Subdivisions : "/>
+        </properties>
+      </component>
+      <component id="908ec" class="javax.swing.JComboBox" binding="subdivisionsBox">
+        <constraints>
+          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="50"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+        </properties>
+      </component>
+      <hspacer id="5f587">
+        <constraints>
+          <grid row="5" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20"/>
+        </constraints>
+      </hspacer>
+      <component id="67d1e" class="javax.swing.JButton" binding="btnHelp">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Help"/>
+        </properties>
+      </component>
+      <component id="c3dc3" class="javax.swing.JButton" binding="btnSave">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="74d51" class="javax.swing.JButton" binding="btnLoad">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <text value="Load"/>
+        </properties>
+      </component>
+      <component id="b106" class="javax.swing.JButton" binding="btnNew">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="New"/>
+        </properties>
+      </component>
+      <component id="7f653" class="javax.swing.JLabel" binding="jlStatus">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Stopped"/>
+        </properties>
+      </component>
+      <component id="f5070" class="javax.swing.JLabel" binding="jlQueuedIndicator">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Queued :"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="1789c"/>
+      <member id="2e224"/>
+      <member id="beab0"/>
+    </group>
+    <group name="sampleSelector">
+      <member id="1258c"/>
+      <member id="62112"/>
+      <member id="cbb4b"/>
+      <member id="9f5b4"/>
+      <member id="6a509"/>
+      <member id="34ee7"/>
+    </group>
+  </buttonGroups>
+</form>

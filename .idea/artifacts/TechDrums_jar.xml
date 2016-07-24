@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TechDrums:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TechDrums_jar</output-path>
+    <root id="archive" name="TechDrums.jar">
+      <element id="module-output" name="TechDrums" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsfml.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
